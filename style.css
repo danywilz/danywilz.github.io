@@ -1,0 +1,282 @@
+/* Global Styles */
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #E0E0E0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Styles */
+.header-content {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+}
+.header-content img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #444;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: #BB86FC;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+#switchTheme {
+  margin-left: 1rem;
+  background-color: #BB86FC;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+#switchTheme:hover {
+  background-color: #9B59B6;
+}
+
+/* Main Content Styles */
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.parallax {
+  background: url('assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.certificate-list, .work-list, .skills-list, .tools-list, .project-list, .testimonials-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.certificate, .work-item, .skill, .tool, .project, .testimonial {
+  background-color: #2C2A32;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1 1 calc(33% - 2rem);
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+.certificate img, .work-item img, .skill img, .tool img, .project img, .testimonial img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Adjust Testimonial Image Sizes */
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Adjust Skills and Tools Image Sizes */
+.skill img, .tool img {
+  max-width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.social-links li {
+  margin: 0 1rem;
+}
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Form Styles */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact-form label {
+  margin-top: 1rem;
+}
+#contact-form input, #contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #BB86FC;
+  border-radius: 4px;
+  background-color: #121212;
+  color: white;
+}
+#contact-form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #BB86FC;
+  color: white;
+  cursor: pointer;
+}
+#contact-form button:hover {
+  background-color: #9B59B6;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Green Theme Styles */
+body.light-mode {
+  background-color: #004d40;
+  color: #ffffff;
+}
+body.light-mode .header-content {
+  background-color: #00695c;
+  color: #ffffff;
+}
+body.light-mode nav {
+  background-color: #004d40;
+}
+body.light-mode nav ul li a {
+  color: #bbdefb;
+}
+body.light-mode #switchTheme {
+  background-color: #bbdefb;
+}
+body.light-mode #switchTheme:hover {
+  background-color: #81d4fa;
+}
+body.light-mode .parallax {
+  color: #ffffff;
+}
+body.light-mode .certificate, body-light-mode .work-item, body-light-mode .skill, body-light-mode .tool, body-light-mode .project, body-light-mode .testimonial {
+  background-color: #004d40;
+  color: #ffffff;
+}
+body.light-mode #contact-form input, body-light-mode #contact-form textarea {
+  background-color: #004d40;
+  color: #ffffff;
+}
+body.light-mode footer {
+  background-color: #00695c;
+  color: #ffffff;
+}
+
+/* Scroll Animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+section {
+  animation: fadeIn 1s ease-in;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #444; /* Adjust as needed */
+    z-index: 1000;
+}
+@media (max-width: 768px) {
+    .skills-list, .tools-list, .work-list, .certificate-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+/* About Section Styles */
+#about {
+    background-color: #ffffff; /* Clean white for the background */
+    color: #000000; /* Black text for excellent readability */
+    padding: 2rem;
+    border-radius: 8px; /* Add some styling for a modern look */
+    text-align: center;
+}
+body.light-mode #about {
+    background-color: #f5f5f5; /* Light gray */
+    color: #333333; /* Dark gray text */
+}
+nav {
+    height: 50px; /* Reduce the height of the menubar */
+    line-height: 50px; /* Align menu items vertically */
+    background-color: #444; /* Maintain the theme color */
+    position: fixed; /* Keeps the menubar at the top */
+    top: 0;
+    width: 100%; /* Stretches across the screen */
+    z-index: 1000; /* Ensures the menubar is above other elements */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers menu items horizontally */
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem; /* Space between menu items */
+}
+
+nav ul li a {
+    color: #BB86FC; /* Ensure menu links are visible */
+    text-decoration: none;
+    font-size: 1rem; /* Adjust size for readability */
+}
+
+.header-content {
+    margin-top: 60px; /* Push the header content below the menubar */
+}

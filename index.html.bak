@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davidson Ewere Eguabor - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<header>
+    <div class="header-content">
+        <h1>Davidson Ewere Eguabor</h1>
+        <p>Java Web Application Developer.Every line of code demonstrates my dedication to quality and represents my vision for elegance and functionality.</p>
+        <img src="profile.jpg" alt="Davidson Ewere Eguabor">
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#work">Work Display</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Get in Touch</a></li>
+    </ul>
+    <button id="switchTheme" class="btn btn-outline-light" aria-label="Switch Theme">🌙</button>
+</nav>
+</nav>
+<main>
+    <section id="about" class="parallax">
+        <h2>About Me</h2>
+        <p>I am a passionate Java web application developer with experience in building efficient and scalable backend systems.I take pleasure in improving things when I perceive they need it. I work hard to develop web applications that are not only useful but also pleasing and motivating because I am a meticulous person with an excellent eye for details. My objective is to participate in initiatives that inspire people and draw attention to myself, demonstrating my love of growth and my dedication to quality.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <img src=./java_919854.png alt="Java">
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <img src=./icons8-html-5-64.png alt="HTML5">
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <img src=/icons8-css-filetype-48.png alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src=./mysql_919836.png alt="MySQL">
+                <p>MySQL</p>
+            </div>
+            <div class="skill">
+                <img src=./icons8-javascript-64.png alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src=./api_3231329.png alt="APIs">
+                <p>APIs</p>
+            </div>
+        </div>
+    </section>
+    <section id="tools">
+        <h2>Tools</h2>
+        <div class="tools-list">
+            <div class="tool">
+                <img src=./icons8-intellij-idea-48.png alt="IntelliJ">
+                <p>IntelliJ</p>
+            </div>
+            <div class="tool">
+                <img src=./google-gemini-icon.png alt="Gemini">
+                <p>Gemini</p>
+            </div>
+            <div class="tool">
+                <img src=./icons8-deepseek-48.png alt="Deepseek">
+                <p>Deepseek</p>
+            </div>
+            <div class="tool">
+                <img src=./icons8-spring-boot-48.png alt="Spring Boot">
+                <p>Spring Boot</p>
+            </div>
+            <div class="tool">
+                <img src=./icons8-chat-gpt-48.png alt="ChatGPT">
+                <p>ChatGPT</p>
+            </div>
+            <div class="tool">
+                <img src=./github_3291695.png alt="GitHub">
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Check out some of my personal projects:</p>
+        <div class="project-list">
+            <div class="project">
+                <h3>Multiplication table sample for students</h3>
+                <p>This is a simple straight multiplication table using IntelliJ</p>
+                <a href="https://streamable.com/rwoh3x" target="_blank">View Video</a>
+            </div>
+            <div class="project">
+                <h3>Fashion blog</h3>
+                <p>a fashion blog that showcases and manage a platform designed to highlight trendy fashion styles and
+                    allow users to explore various clothing categories. The platform features an intuitive interface for
+                    browsing fashion items, uploading new designs, and managing a dynamic image gallery.Built with
+                    Bootstrap ,html,css and JavaScript for a responsive and engaging browsing experience.</p>
+                <a href="https://streamable.com/4hon95" target="_blank">View Video</a>
+            </div>
+            <div class="project">
+                <h3>A web based application news portal</h3>
+                <p>1. The application accommodates a number of roles, such as System Admins, Editors, and News Readers, each with unique tasks and profile details.
+                    2. News Features: Enables news articles to be posted, updated, and categorized, guaranteeing timely and interesting content.
+                    3.Registration & Authentication: Offers secure login features, password management, and an expedited registration procedure.
+
+                    4.Engagement Tools: Provides a better reading experience by facilitating user engagement with
+                    features like dynamic news panels and comments.</p>
+                <a href="https://streamable.com/jj659n" target="_blank">View Video</a>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <h2>Work Display</h2>
+        <div class="work-list">
+            <div class="work-item">
+                <img src=./work1.jpg alt="Work 1">
+                <p><a target="_blank" rel="noopener noreferrer">In order to ensure a well-structured database design, the Entity Relationship Diagram (ER Diagram) represents attributes of entities such as News Readers, Editors, System Admins, and Comments.
+                    User Management: Maintains comprehensive profiles with full names, email addresses, profile pictures, and personal data for News Readers, Editors, and System Administrators.
+                    News Posting and Updates: Allows creation, categorization, and timely updates of news articles, replete with titles, content, and timestamps.
+                    Flowchart Process: Visualizes important workflows such as user registration, login, password reset, navigating between news tabs, and logout, making the software intuitive and user-friendly.</a></p>
+            </div>
+            <div class="work-item">
+                <img src=./work2.png alt="Work 2">
+                <p><a target="_blank" rel="noopener noreferrer"> The code employs if-else statements to implement tiered discount rates based on the quantity of purchases. This illustrates how to manage business rules where results are contingent upon specific conditions, which is a common necessity in commercial applications.
+
+                    The program makes use of Scanner to interactively accept user inputs (quantity and price), allowing it to adapt to various scenarios. This emphasizes the fundamental input/output operations in Java.
+
+                    The code distinguishes the gross pay calculation (grossPay = quantity * price) from the discount logic, enhancing clarity and maintainability.
+
+                    Comments are purposefully included to clarify the intent of each discount tier, improving readability. Well-chosen variable names (e.g., discountRate, grossPay) also make the code self-explanatory.</a></p>
+            </div>
+            <div class="work-item">
+                <img src=./work3.png alt="Work 3">
+                <p><a target="_blank" rel="noopener noreferrer">Student and Library Management System project:
+
+                    1.Student profiles are used to efficiently track and personalize student information, including name, age, and address.
+                    2.Book Management: Makes it possible to store and manage book-related data, such as the ISBN, title, and author.
+                    3.Borrowing and Returning: Makes it easier to borrow and return books while maintaining structured and up-to-date data.
+                    4.Admin Controls: Offers resources for system management, such as student and book management and borrowing activity tracking.
+                </a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1JDGBruGaq9MXywDw9khVbGpxGQaC6ksY/view?usp=sharing" download>view my Resume</a>
+    </section>
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <p>Here are some of my certifications:</p>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="certificate1.jpg" alt="Certificate 1">
+                <p>Diploma in Management and Information System (MIS)</p>
+            </div>
+            <div class="certificate">
+                <img src="certificate2.png" alt="Certificate 2">
+                <p>Software Engineering</p>
+            </div>
+            <div class="certificate">
+                <img src="certificate3.jpg" alt="Certificate 3">
+                <p>Applied Software Engineering - Java Programming Specialization</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>What my friends and clients say about me</p>
+        <div class="testimonials-slider">
+            <div class="testimonial">
+                <img src="testimonial1.jpg" alt="Testimonial 1">
+                <p>"Davidson is an exceptional developer who consistently delivers high-quality work." - Emmanuel Chucks</p>
+            </div>
+            <div class="testimonial">
+                <img src="testimonial2.jpg" alt="Testimonial 2">
+                <p>"Working with Davidson has been a pleasure. His expertise and dedication are unparalleled." - Augustine Eguabor</p>
+            </div>
+            <div class="testimonial">
+                <img src="testimonial3.jpg" alt="Testimonial 3">
+                <p>"Davidson's skills and professionalism are truly impressive. Highly recommended!" - Omolade E</p>
+            </div>
+            <div class="testimonial">
+                <img src=./testimonial4.jpg alt="Testimonial 4">
+                <p>"A great guy, hard worker and very focused." - Seun Shodipo
+                    (client)</p>
+            </div>
+            <div class="testimonial">
+                <img src=./testimonial5.jpg alt="Testimonial 5">
+                <p>"Davidson is incredibly talented and always meets deadlines." - Adewunmi Adegbokun
+                    (client)</p>
+            </div>
+            <div class="testimonial">
+                <img src=./testimonial%206.jpg alt="Testimonial 6">
+                <p>"Davidson's work ethic is unmatched. He's a great team player." - Queen E (Friend)
+                </p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out to me through the following platforms:</p>
+        <ul class="social-links">
+            <li><a href="https://wa.me/2348138347543"><img src=./whatsapp_733585.png alt="WhatsApp"></a></li>
+            <li><a href="https://github.com/danywilz"><img src=./github_3291695.png alt="GitHub"></a></li>
+            <li><a href="https://x.com/dannywilz"><img src=./twitter_5968830.png alt="Twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/ewere-eguabor-275655192/"><img src=./linkedin_254394.png alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/danywilz/"><img src=./instagram_2504918.png alt="Instagram"></a></li>
+            <li><a href="https://www.threads.net/@danywilz?xmt=AQGzJJxZ_MSDJkDsAp-W6TtMaXc7Zx6vImCVRdmwAFeKcuk"><img src=./threads-app-icon.png alt="Threads"></a></li>
+            <li><a href="https://discord.com/invite/yourdiscordlink"><img src=./discord_5968756.png alt="Discord"></a></li>
+        </ul>
+        <p><strong>Phone:</strong> +2348138347543</p>
+        <p><strong>Address:</strong> Ikorodu, Lagos, Nigeria</p>
+        <p><a href="https://linktr.ee/danywilz"><strong>Linktree:</strong></a></p>
+
+    </section>
+</main>
+<footer>
+    <p>Made with Bootstrap, HTML, CSS, JS using IntelliJ IDE and a dash of  <img src=./heart_833472.png alt="love logo"> by Davidson Ewere Eguabor</p>
+</footer>
+</body>
+</html>

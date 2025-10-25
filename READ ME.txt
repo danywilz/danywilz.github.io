@@ -1,0 +1,32 @@
+# Davidson Ewere Eguabor - Portfolio
+
+A professional portfolio website showcasing skills, projects, and achievements as a Java Web Application Developer. Built with modern web technologies and designed for clarity and interactivity.
+
+## Features
+- **Interactive UI**: Theme switcher (light/dark mode), preloader, and parallax effects.
+- **Portfolio Sections**: 
+  - **About**: Professional introduction and philosophy.
+  - **Skills & Tools**: Icons and descriptions for Java, Spring Boot, MySQL, HTML/CSS, JavaScript, and development tools.
+  - **Projects**: Detailed showcases with video demos (e.g., fashion blog, news portal).
+  - **Work Display**: Code snippets, ER diagrams, and system workflows.
+  - **Certificates & Testimonials**: Credentials and client feedback.
+  - **Contact**: Social media links and direct communication options.
+
+## Technologies
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap.
+- **Tools**: IntelliJ IDE, GitHub, Spring Boot.
+- **Third-Party Icons**: Icons8, Font Awesome (for skill/tool icons).
+
+## Setup
+1. Clone the repository.
+2. Open `index.html` in a web browser.
+3. Ensure all asset paths (images, CSS/JS files) are correctly linked.
+
+## Usage
+- Navigate through sections using the top menu.
+- Toggle themes with the 🌙 button.
+- Download the resume or view project demos via embedded links.
+
+## License
+- Code is open-source;
+- Images and certificates are personal property; contact for permissions.
