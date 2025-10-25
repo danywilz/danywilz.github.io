@@ -91,7 +91,7 @@ portfolio/
 
 Live Demo
 The portfolio is deployed and accessible at:
-[davetech.githuh.io]
+[danywilz.githuh.io]
 
 Responsive Design
 The website is fully responsive and optimized for:
@@ -183,5 +183,6 @@ This project is open source and available under the MIT License.
 Built with love by Davidson Ewere Eguabor
 
 "Every line of code demonstrates my dedication to quality and represents my vision for elegance and functionality."
+
 
 
